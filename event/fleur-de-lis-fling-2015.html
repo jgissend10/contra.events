@@ -45,7 +45,7 @@
         border-bottom: 1px solid #eeeeee;
         height: 100%; display: block;
     }
-    #home > .container {
+    #home > .bottom-container {
         position: absolute;
         bottom: 2%;
         right: 2%;
@@ -60,13 +60,6 @@
         display: inline;
         margin: 0px 5px 5px 5px;
     }
-    *[nav-anchor]:before { 
-      display: block; 
-      content: " "; 
-      margin-top: -30px; 
-      height: 70px; 
-      visibility: hidden; 
-    }
     .navbar {
         background-color: whitesmoke;
     }
@@ -79,7 +72,7 @@
     }
     </style>
   </head>
-  <body data-spy="scroll" data-target="#navbar">
+  <body>
 
     <!-- Fixed navbar -->
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -121,6 +114,8 @@
 
       <!-- Main component for a primary marketing message or call to action -->
       <div class="container">
+      </div><!-- /container -->
+      <div class="container bottom-container">
         <h1>8<sup>th</sup> Annual Fleur de Lis Fling<br><small>November 20-22, 2015 - Louisville, KY</small></h1>
         <br>
         <h3>with the musical talent of The Stringrays and Turnip the Beet<br>calling talents of Will Mentor and Michael Hamilton</h3>
@@ -269,5 +264,20 @@ Phasellus nec auctor purus. Pellentesque ornare quam pellentesque volutpat accum
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="../static/js/bootstrap.min.js"></script>
+    <script src="../static/js/jquery.scrollTo.js"></script>
+    <script src="../static/js/jquery.nav.js"></script>
+    <script>
+    $( document ).ready(function() {
+        if ($.fn.onePageNav && $("#navbar").length) {
+            $('#navbar').onePageNav({
+              currentClass: 'active',
+              scrollSpeed: 600,
+              scrollOffset: 60,
+              scrollThreshold: 0.2,
+              easing: 'swing'
+            })
+          }
+    });
+    </script>
   </body>
 </html>
