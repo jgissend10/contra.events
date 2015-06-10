@@ -1,0 +1,127 @@
+html { 
+  height:100%;
+}
+
+body { 
+  font-family: 'Lato', sans-serif;
+  height:100%;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h4 {
+  color: white;
+  font-size: 46px;
+  font-family: 'Roboto', sans-serif;
+ 
+}
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.darken{
+  font-size: 16px;
+  padding: 5px;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.counter {
+  padding: 60px 0;
+  //background-color: #ffffff;
+  color: white;
+  //border-bottom: 1px solid #eeeeee;
+}
+.counter .count-digits {
+  text-align: center;
+  padding: 15px 0 0;
+  position: relative;
+}
+.counter .count-digits p {
+  margin: 0 auto 15px;
+  font-size: 36px;
+  width: 150px;
+  height: 150px;
+  line-height: 150px;
+  border-radius: 50%;
+  //border: 1px solid #999999;
+  font-weight: 300;
+  color: black;
+  background-color: rgba(192, 192, 192, 0.63);
+}
+.counter .count-digits span {
+  display: inline-block;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+.counter .btn-empty-inverse {
+  min-width: 60px;
+}
+
+.img-focus-circle {
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  border: white;
+  border-style: solid;
+  border-width: 5px;
+}
+
+.jumbotron {
+    margin: 0px;
+    background-color: #ffffff;
+}
+
+.talent {background-color: #36d7b7 !important;color: white;}
+.workshops {background-color: #fd8a21 !important}
+.lodging {background-color: rgba(231, 76, 60, 0.9) !important}
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 60px;
+    height: 60px;
+    padding-top: 0;
+}
+.light-background > h1{
+    background-color: #36d7b7;
+}
+.lead{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 21px;
+}
+
+#home {
+    background-image:linear-gradient( rgba(255, 255, 255, 0.12), rgba(0, 0, 0, 0.5) ), url('https://indigenize.files.wordpress.com/2009/11/p1010026crop.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    //border-bottom: 1px solid #eeeeee;
+    min-height: 100%; display: block;
+}
+#home > .bottom-container {
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+    text-align: right;
+    color: white;
+}
+#home > .bottom-container > h1 > small {
+    color: wheat;
+}
+#logo {
+    height: 50px;
+    display: inline;
+    margin: 0px 5px 5px 5px;
+}
+.navbar {
+    background-color: whitesmoke;
+}
+.navbar-brand {
+    color: #333333 !important;
+}
+.social {
+    padding: 0px 5px;
+    color: white;
+}
