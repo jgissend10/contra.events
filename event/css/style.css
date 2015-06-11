@@ -76,7 +76,8 @@ h4 {
 
 .talent {background-color: #36d7b7 !important;color: white;}
 .workshops {background-color: #fd8a21 !important}
-.lodging {background-color: rgba(231, 76, 60, 0.9) !important}
+.housing {background-color: rgba(231, 76, 60, 0.9) !important}
+.pricing {background-color: rgba(76, 60, 231, 0.9) !important}
 .navbar-brand,
 .navbar-nav li a {
     line-height: 60px;
