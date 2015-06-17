@@ -1,9 +1,9 @@
 
-.event-panel-body {
+/*.event-panel-body {
         max-height: 90%;
         overflow-y: scroll;
     }
-
+*/
 @media (min-width: 768px) {
     .event-panel-body {
         height: 50%;
