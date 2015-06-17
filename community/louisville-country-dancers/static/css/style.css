@@ -93,7 +93,7 @@ body {
     text-align: center;
     text-transform: uppercase;
 }
-.event-list > li:nth-child(even) > time {
+.event-list > li > time[datetime*=Monday] {
     background-color: rgb(165, 82, 167);
 }
 .event-list > li > time > span {
