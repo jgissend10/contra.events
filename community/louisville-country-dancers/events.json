@@ -13,8 +13,8 @@
       "title":"Buzzstep",
       "desc":"w/ Mark Richardson",
       "price":"$5/$8",
-      "facebook":"#",
-      "meetup":"#"
+      "facebook":"#facebook",
+      "meetup":"#meetup"
     },
     {
       "datetime": "2015-06-22 2000 Monday",
@@ -28,8 +28,8 @@
       "title":"Monday Night All Stars",
       "desc":"w/ Josiah Roberts",
       "price":"$3/$5",
-      "facebook":"#",
-      "meetup":"#"
+      "facebook":"#facebook",
+      "meetup":"#meetup"
     },
     {
       "datetime": "2015-06-29 2000 Monday",
@@ -43,8 +43,8 @@
       "title":"Monday Night All Stars",
       "desc":"w/ Deborah Denenfeld",
       "price":"$3/$5",
-      "facebook":"#",
-      "meetup":"#"
+      "facebook":"#facebook",
+      "meetup":"#meetup"
     },
     {
       "datetime": "2015-07-06 2000 Monday",
@@ -58,8 +58,8 @@
       "title":"Monday Night All Stars",
       "desc":"w/ Betty Page",
       "price":"$3/$5",
-      "facebook":"#",
-      "meetup":"#"
+      "facebook":"#facebook",
+      "meetup":"#meetup"
     },
     {
       "datetime": "2015-07-13 2000 Monday",
@@ -73,8 +73,8 @@
       "title":"Monday Night All Stars",
       "desc":"w/ Marvin the Wonder Llama",
       "price":"$3/$5",
-      "facebook":"#",
-      "meetup":"#"
+      "facebook":"#facebook",
+      "meetup":"#meetup"
     },
     {
       "datetime": "2015-07-18 2000 Saturday",
@@ -88,8 +88,8 @@
       "title":"Footbridge",
       "desc":"w/ Mark Richardson",
       "price":"$5/$8",
-      "facebook":"#",
-      "meetup":"#"
+      "facebook":"#facebook",
+      "meetup":"#meetup"
     }
   ]
 }
