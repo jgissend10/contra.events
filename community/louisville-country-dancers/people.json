@@ -4,27 +4,32 @@
     {
       "name":"Scott Stevens",
       "img":"http://api.randomuser.me/portraits/men/97.jpg",
-      "link":"/person/james-gissendaner/"
+      "link":"/person/james-gissendaner/",
+      "role":"Co-Chair"
     },
     {
       "name":"Scott Stevens",
       "img":"http://api.randomuser.me/portraits/men/54.jpg",
-      "link":"/person/james-gissendaner/"
+      "link":"/person/james-gissendaner/",
+      "role":"Co-Chair"
     },
     {
       "name":"Scott Stevens",
       "img":"http://api.randomuser.me/portraits/men/77.jpg",
-      "link":"/person/james-gissendaner/"
+      "link":"/person/james-gissendaner/",
+      "role":"Communication"
     },
     {
       "name":"Scott Stevens",
       "img":"http://api.randomuser.me/portraits/men/19.jpg",
-      "link":"/person/james-gissendaner/"
+      "link":"/person/james-gissendaner/",
+      "role":"Outreach"
     },
     {
       "name":"Scott Stevens",
       "img":"http://api.randomuser.me/portraits/men/12.jpg",
-      "link":"/person/james-gissendaner/"
+      "link":"/person/james-gissendaner/",
+      "role":"Member at Large"
     }
   ],
   "generalmembers":
