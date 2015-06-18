@@ -1,15 +1,6 @@
 {
   "boardmembers":
   [
-    /* EXAMPLE RECORD
-    {
-      "name":"Scott Stevens",
-      "address":"5842 Hillcrest Rd", //These three aren't used
-      "phonenumber":"(870) 288-4149", //These three aren't used
-      "email":"scott.stevens@example.com", //These three aren't used
-      "img":"http://api.randomuser.me/portraits/men/49.jpg",
-      "link":"/person/james-gissendaner/"
-    },*/
     {
       "name":"Scott Stevens",
       "img":"http://api.randomuser.me/portraits/men/97.jpg",
