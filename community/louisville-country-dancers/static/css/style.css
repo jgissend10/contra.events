@@ -372,6 +372,11 @@ body {
     font-weight: 400;
 }
 
+#generalmember-contact-list .location {
+    font-size: 1.4em;
+    font-weight: 400;
+}
+
 .c-info {
     padding: 5px 10px;
     font-size: 1.25em;

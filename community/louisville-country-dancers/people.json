@@ -37,7 +37,8 @@
     {
       "name":"James Gissendaner",
       "img":"http://www.rlsandbox.com/img/profile.jpg",
-      "link":"/person/james-gissendaner/"
+      "link":"/person/james-gissendaner/",
+      "location": "Louisville, KY"
     }
   ]
 }
