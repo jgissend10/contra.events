@@ -6,42 +6,48 @@
       "address":"5842 Hillcrest Rd",
       "phonenumber":"(870) 288-4149",
       "email":"scott.stevens@example.com",
-      "img":"http://api.randomuser.me/portraits/men/49.jpg"
+      "img":"http://api.randomuser.me/portraits/men/49.jpg",
+      "link":"/person/james-gissendaner/"
     },
     {
       "name":"Scott Stevens",
       "address":"5842 Hillcrest Rd",
       "phonenumber":"(870) 288-4149",
       "email":"scott.stevens@example.com",
-      "img":"http://api.randomuser.me/portraits/men/97.jpg"
+      "img":"http://api.randomuser.me/portraits/men/97.jpg",
+      "link":"/person/james-gissendaner/"
     },
     {
       "name":"Scott Stevens",
       "address":"5842 Hillcrest Rd",
       "phonenumber":"(870) 288-4149",
       "email":"scott.stevens@example.com",
-      "img":"http://api.randomuser.me/portraits/men/54.jpg"
+      "img":"http://api.randomuser.me/portraits/men/54.jpg",
+      "link":"/person/james-gissendaner/"
     },
     {
       "name":"Scott Stevens",
       "address":"5842 Hillcrest Rd",
       "phonenumber":"(870) 288-4149",
       "email":"scott.stevens@example.com",
-      "img":"http://api.randomuser.me/portraits/men/77.jpg"
+      "img":"http://api.randomuser.me/portraits/men/77.jpg",
+      "link":"/person/james-gissendaner/"
     },
     {
       "name":"Scott Stevens",
       "address":"5842 Hillcrest Rd",
       "phonenumber":"(870) 288-4149",
       "email":"scott.stevens@example.com",
-      "img":"http://api.randomuser.me/portraits/men/19.jpg"
+      "img":"http://api.randomuser.me/portraits/men/19.jpg",
+      "link":"/person/james-gissendaner/"
     },
     {
       "name":"Scott Stevens",
       "address":"5842 Hillcrest Rd",
       "phonenumber":"(870) 288-4149",
       "email":"scott.stevens@example.com",
-      "img":"http://api.randomuser.me/portraits/men/12.jpg"
+      "img":"http://api.randomuser.me/portraits/men/12.jpg",
+      "link":"/person/james-gissendaner/"
     }
   ],
   "generalmembers":
@@ -51,7 +57,8 @@
       "address":"5842 Hillcrest Rd",
       "phonenumber":"(870) 288-4149",
       "email":"scott.stevens@example.com",
-      "img":"http://api.randomuser.me/portraits/men/1.jpg"
+      "img":"http://api.randomuser.me/portraits/men/1.jpg",
+      "link":"/person/james-gissendaner/"
     }
   ]
 }

@@ -213,7 +213,7 @@
         function(data){
             boardmembers = $("#boardmember-contact-list");
             $.each( data["boardmembers"], function( key, val ) {
-                boardmembers.append( "<li id='boardmember-" + key + "' class='list-group-item'>"+
+                boardmembers.append( "<a href='" + val["link"] + "'><li id='boardmember-" + key + "' class='list-group-item'>"+
                                     "    <div class='col-xs-12 col-sm-3'>"+
                                     "        <img src='" + val["img"] + "' alt='" + val["name"] + "' class='img-responsive img-circle' />"+
                                     "    </div>"+
@@ -224,7 +224,7 @@
                                     "        <span class='fa fa-comments text-muted c-info' data-toggle='tooltip' title='" + val["email"] + "'></span>"+*/
                                     "    </div>"+
                                     "    <div class='clearfix'></div>"+
-                                    "</li>" );
+                                    "</li></a>" );
             });
             if($('.check-media').width() == 960){
                 boardmembers.width(boardmembers.children().length * 300);
@@ -232,9 +232,9 @@
 
             generalmembers = $("#generalmember-contact-list");
             $.each( data["generalmembers"], function( key, val ) {
-                generalmembers.append( "<li id='generalmember-" + key + "' class='list-group-item'>"+
+                generalmembers.append( "<a href='" + val["link"] + "'><li id='generalmember-" + key + "' class='list-group-item'>"+
                                     "    <div class='col-xs-12 col-sm-3'>"+
-                                    "        <img src='" + val["img"] + "' alt='" + val["name"] + "' class='img-responsive img-circle' />"+
+                                    "        <a href='" + val["link"] + "'><img src='" + val["img"] + "' alt='" + val["name"] + "' class='img-responsive img-circle' /></a>"+
                                     "    </div>"+
                                     "    <div class='col-xs-12 col-sm-9'>"+
                                     "        <span class='name'>" + val["name"] + "</span><br/>"+
@@ -243,7 +243,7 @@
                                     "        <span class='fa fa-comments text-muted c-info' data-toggle='tooltip' title='" + val["email"] + "'></span>"+*/
                                     "    </div>"+
                                     "    <div class='clearfix'></div>"+
-                                    "</li>" );
+                                    "</li></a>" );
             });
             if($('.check-media').width() == 960){
                 generalmembers.width(generalmembers.children().length * 300);
