@@ -4,6 +4,8 @@
         overflow-y: scroll;
     }
 */
+
+
 @media (min-width: 768px) {
     .event-panel-body {
         height: 50%;
@@ -174,7 +176,8 @@ body {
 }
 .facebook a,
 .twitter a,
-.google-plus a {
+.google-plus a,
+.meetup a{
     display: block;
     width: 100%;
     color: rgb(75, 110, 168) !important;
@@ -184,6 +187,9 @@ body {
 }
 .google-plus a {
     color: rgb(221, 75, 57) !important;
+}
+.meetup a {
+    color: rgb(247, 9, 25) !important;
 }
 .facebook:hover a {
     color: rgb(255, 255, 255) !important;
@@ -197,6 +203,11 @@ body {
     color: rgb(255, 255, 255) !important;
     background-color: rgb(221, 75, 57) !important;
 }
+.meetup:hover a {
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(247, 9, 25) !important;
+}
+
 
 @media (min-width: 961px) {
     .event-list > li {

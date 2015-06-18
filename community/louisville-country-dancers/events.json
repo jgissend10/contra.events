@@ -1,0 +1,20 @@
+{
+  "events":
+  [
+    {
+      "time": "2015-06-20 2000 Saturday"
+      "weekday":"Sat",
+      "day":"20",
+      "month":"Jul",
+      "year":"2015",
+      "time":"8 PM",
+      "band":"Buzzstep",
+      "bandimg":"http://lorempixel.com/g/640/480/people/",
+      "title":"Buzzstep",
+      "desc":"w/ Mark Richardson",
+      "price":"$5/$8",
+      "facebook":"",
+      "meetup":""
+    }
+  ]
+}
