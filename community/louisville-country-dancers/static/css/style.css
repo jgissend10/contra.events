@@ -294,3 +294,60 @@ body {
     }
 }
 */
+
+//People list
+.panel > .list-group .list-group-item:first-child {
+    /*border-top: 1px solid rgb(204, 204, 204);*/
+}
+@media (max-width: 960px) {
+    .visible-xs {
+        display: block !important;
+    }
+    .block {
+        display: block !important;
+        width: 100%;
+        height: 1px !important;
+    }
+
+    .person-container {
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    #contact-list{
+        width:10000px;
+    }
+
+    #contact-list > li {
+        position: relative;
+        float:left;
+        display: inline;
+        width: auto;
+        height: 180px;
+        padding: 0px 10px;
+        margin: 0px 10px 10px 10px;
+    }
+
+    #contact-list > li img {
+        max-height: 180px;
+        padding: 10px 0px;
+    }
+
+    /*#contact-list .visible-xs > .text-muted {
+        display:inline;
+    }
+    #contact-list .visible-xs > .text-muted:after {
+        content:"\a";
+        white-space: pre;
+    }*/
+}
+
+.name {
+    font-size: 1.7em;
+    font-weight: 700;
+}
+
+.c-info {
+    padding: 5px 10px;
+    font-size: 1.25em;
+}
