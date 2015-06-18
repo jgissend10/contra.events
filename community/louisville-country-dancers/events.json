@@ -2,10 +2,10 @@
   "events":
   [
     {
-      "time": "2015-06-20 2000 Saturday"
+      "datetime": "2015-06-20 2000 Saturday",
       "weekday":"Sat",
       "day":"20",
-      "month":"Jul",
+      "month":"Jun",
       "year":"2015",
       "time":"8 PM",
       "band":"Buzzstep",
@@ -13,8 +13,83 @@
       "title":"Buzzstep",
       "desc":"w/ Mark Richardson",
       "price":"$5/$8",
-      "facebook":"",
-      "meetup":""
+      "facebook":"#",
+      "meetup":"#"
+    },
+    {
+      "datetime": "2015-06-22 2000 Monday",
+      "weekday":"Mon",
+      "day":"22",
+      "month":"Jun",
+      "year":"2015",
+      "time":"8 PM",
+      "band":"Monday Night All Stars",
+      "bandimg":"http://lorempixel.com/g/640/480/people/",
+      "title":"Monday Night All Stars",
+      "desc":"w/ Josiah Roberts",
+      "price":"$3/$5",
+      "facebook":"#",
+      "meetup":"#"
+    },
+    {
+      "datetime": "2015-06-29 2000 Monday",
+      "weekday":"Mon",
+      "day":"29",
+      "month":"Jun",
+      "year":"2015",
+      "time":"8 PM",
+      "band":"Monday Night All Stars",
+      "bandimg":"http://lorempixel.com/g/640/480/people/",
+      "title":"Monday Night All Stars",
+      "desc":"w/ Deborah Denenfeld",
+      "price":"$3/$5",
+      "facebook":"#",
+      "meetup":"#"
+    },
+    {
+      "datetime": "2015-07-06 2000 Monday",
+      "weekday":"Mon",
+      "day":"06",
+      "month":"Jul",
+      "year":"2015",
+      "time":"8 PM",
+      "band":"Monday Night All Stars",
+      "bandimg":"http://lorempixel.com/g/640/480/people/",
+      "title":"Monday Night All Stars",
+      "desc":"w/ Betty Page",
+      "price":"$3/$5",
+      "facebook":"#",
+      "meetup":"#"
+    },
+    {
+      "datetime": "2015-07-13 2000 Monday",
+      "weekday":"Mon",
+      "day":"13",
+      "month":"Jul",
+      "year":"2015",
+      "time":"8 PM",
+      "band":"Monday Night All Stars",
+      "bandimg":"http://lorempixel.com/g/640/480/people/",
+      "title":"Monday Night All Stars",
+      "desc":"w/ Marvin the Wonder Llama",
+      "price":"$3/$5",
+      "facebook":"#",
+      "meetup":"#"
+    },
+    {
+      "datetime": "2015-07-18 2000 Saturday",
+      "weekday":"Sat",
+      "day":"18",
+      "month":"Jul",
+      "year":"2015",
+      "time":"8 PM",
+      "band":"Footbridge",
+      "bandimg":"http://lorempixel.com/g/640/480/people/",
+      "title":"Footbridge",
+      "desc":"w/ Mark Richardson",
+      "price":"$5/$8",
+      "facebook":"#",
+      "meetup":"#"
     }
   ]
 }

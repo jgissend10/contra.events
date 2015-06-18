@@ -92,7 +92,7 @@
                                 <div class="event-container">
                                     <div class="row">
                                         <div class="[ col-lg-12  ]">
-                                            <ul class="event-list">
+                                            <ul id="event-list" class="event-list">
                                             </ul>
                                         </div>
                                     </div>
@@ -252,7 +252,37 @@
     $('[data-toggle="tooltip"]').tooltip();
 </script>
 <script type="text/javascript">
-    $.getJSON("/community/louisville-country-dancers/events.json",function(data){console.log(data);});
+    $.getJSON('/community/louisville-country-dancers/events.json',
+        function(data){
+            events = $("#event-list");
+            $.each( data["events"], function( key, val ) {
+                events.append( "<li id='event-" + key + "'>"+
+                            "    <time datetime='" + val["datetime"] + "'>"+
+                            "        <span class='weekday'>" + val["weekday"] + "</span>"+
+                            "        <span class='day'>" + val["day"] + "</span>"+
+                            "        <span class='month'>" + val["month"] + "</span>"+
+                            "        <span class='year'>" + val["year"] + "</span>"+
+                            "        <span class='time'>" + val["time"] + "</span>"+
+                            "    </time>"+
+                            "    <img alt='" + val["band"] + "' src='" + val["bandimg"] + "' />"+
+                            "    <div class='info'>"+
+                            "        <h2 class='title'>" + val["title"] + "</h2>"+
+                            "        <p class='desc'>" + val["desc"] + "</p>"+
+                            "        <ul>"+
+                            "            <li style='width:50%;'><span class='fa fa-money'></span> " + val["price"] + "</li>"+
+                            "        </ul>"+
+                            "    </div>"+
+                            "    <div class='social'>"+
+                            "        <ul>"+
+                            "            <li class='facebook' style='width:33%;'><a href='" + val["facebook"] + "'><span class='fa fa-facebook'></span></a></li>"+
+                            "            <li class='meetup' style='width:33%;'><a href='" + val["meetup"] + "'><span class='fa fa-calendar'></span></a></li>"+
+                            "        </ul>"+
+                            "    </div>"+
+                            "</li>" );
+            });
+        }
+    );
+
 </script>
 </body>
 </html>
