@@ -177,7 +177,8 @@ body {
 .facebook a,
 .twitter a,
 .google-plus a,
-.meetup a{
+.meetup a,
+.contraevent a{
     display: block;
     width: 100%;
     color: rgb(75, 110, 168) !important;
@@ -189,6 +190,9 @@ body {
     color: rgb(221, 75, 57) !important;
 }
 .meetup a {
+    color: rgb(247, 9, 25) !important;
+}
+.contraevent a {
     color: rgb(247, 9, 25) !important;
 }
 .facebook:hover a {
@@ -204,6 +208,10 @@ body {
     background-color: rgb(221, 75, 57) !important;
 }
 .meetup:hover a {
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(247, 9, 25) !important;
+}
+.contraevent:hover a {
     color: rgb(255, 255, 255) !important;
     background-color: rgb(247, 9, 25) !important;
 }

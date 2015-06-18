@@ -14,7 +14,8 @@
       "desc":"w/ Mark Richardson",
       "price":"$5/$8",
       "facebook":"#facebook",
-      "meetup":"#meetup"
+      "meetup":"#meetup",
+      "contraevent": "#contraevent"
     },
     {
       "datetime": "2015-06-22 2000 Monday",
@@ -29,7 +30,8 @@
       "desc":"w/ Josiah Roberts",
       "price":"$3/$5",
       "facebook":"#facebook",
-      "meetup":"#meetup"
+      "meetup":"#meetup",
+      "contraevent": "#contraevent"
     },
     {
       "datetime": "2015-06-29 2000 Monday",
@@ -44,7 +46,8 @@
       "desc":"w/ Deborah Denenfeld",
       "price":"$3/$5",
       "facebook":"#facebook",
-      "meetup":"#meetup"
+      "meetup":"#meetup",
+      "contraevent": "#contraevent"
     },
     {
       "datetime": "2015-07-06 2000 Monday",
@@ -59,7 +62,8 @@
       "desc":"w/ Betty Page",
       "price":"$3/$5",
       "facebook":"#facebook",
-      "meetup":"#meetup"
+      "meetup":"#meetup",
+      "contraevent": "#contraevent"
     },
     {
       "datetime": "2015-07-13 2000 Monday",
@@ -74,7 +78,8 @@
       "desc":"w/ Marvin the Wonder Llama",
       "price":"$3/$5",
       "facebook":"#facebook",
-      "meetup":"#meetup"
+      "meetup":"#meetup",
+      "contraevent": "#contraevent"
     },
     {
       "datetime": "2015-07-18 2000 Saturday",
@@ -89,7 +94,8 @@
       "desc":"w/ Mark Richardson",
       "price":"$5/$8",
       "facebook":"#facebook",
-      "meetup":"#meetup"
+      "meetup":"#meetup",
+      "contraevent": "/event/fleur-de-lis-fling-2015/"
     }
   ]
 }
