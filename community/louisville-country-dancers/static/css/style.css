@@ -363,3 +363,13 @@ body {
     padding: 5px 10px;
     font-size: 1.25em;
 }
+
+.check-media{
+    display:none;
+    width:0;
+}
+@media screen and (max-width: 960px) {
+    .check-media{
+         width:960px;
+    }
+}

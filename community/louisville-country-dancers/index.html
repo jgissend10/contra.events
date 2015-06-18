@@ -129,6 +129,7 @@
             </div>
         </div>
     </div>
+    <div class='check-media'></div>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -164,8 +165,6 @@
     }
     google.maps.event.addDomListener(window, 'resize', triggered);
     google.maps.event.addDomListener(window, 'load', initialize);
-
-    $('[data-toggle="tooltip"]').tooltip();
 </script>
 <script type="text/javascript">
     $.getJSON('/community/louisville-country-dancers/events.json',
@@ -218,8 +217,12 @@
                                     "    <div class='clearfix'></div>"+
                                     "</li>" );
             });
+            if($('.check-media').width() == 960){
+                boardmembers.width(boardmembers.children().length * 300);
+            } 
         }
     );
+    $('[data-toggle="tooltip"]').tooltip();
 
 </script>
 </body>
