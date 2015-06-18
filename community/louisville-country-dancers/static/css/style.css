@@ -325,11 +325,11 @@ body {
         overflow-x: auto;
     }
 
-    #contact-list{
+    .contact-list{
         width:2100px;
     }
 
-    #contact-list > li {
+    .contact-list > li {
         position: relative;
         float:left;
         display: inline;
@@ -341,7 +341,7 @@ body {
         text-align: center;
     }
 
-    #contact-list > li img {
+    .contact-list > li img {
         margin: 5px;
     }
 

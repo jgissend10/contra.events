@@ -46,5 +46,12 @@
   ],
   "generalmembers":
   [
+    {
+      "name":"James Gissendaner",
+      "address":"5842 Hillcrest Rd",
+      "phonenumber":"(870) 288-4149",
+      "email":"scott.stevens@example.com",
+      "img":"http://api.randomuser.me/portraits/men/1.jpg"
+    }
   ]
 }
