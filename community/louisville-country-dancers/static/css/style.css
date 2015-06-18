@@ -329,7 +329,7 @@ body {
         width:2100px;
     }
 
-    .contact-list > li {
+    .contact-list > a > li {
         position: relative;
         float:left;
         display: inline;
@@ -341,7 +341,7 @@ body {
         text-align: center;
     }
 
-    .contact-list > li img {
+    .contact-list > a > li img {
         margin: 5px;
     }
 
