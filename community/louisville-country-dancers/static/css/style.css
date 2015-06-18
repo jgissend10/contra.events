@@ -192,7 +192,7 @@ body {
     background-color: rgb(221, 75, 57) !important;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 961px) {
     .event-list > li {
         position: relative;
         display: block;
@@ -257,7 +257,7 @@ body {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 960px) {
     .event-container {
         width: 100%;
         overflow-x: auto;
@@ -271,69 +271,15 @@ body {
         position: relative;
         float:left;
         display: inline;
-        width: 280px;
+        width: auto;
         height: auto;
         padding: 0px;
         margin: 10px 10px;
     }
 
-
-    /*.event-list > li > time,
-    .event-list > li > img  {
-        display: inline-block;
-    }
-    .event-list > li > img {
-        display: none;
-    }
-    .event-list > li > time,
-    .event-list > li > img {
-        width: 120px;
-        float: left;
-    }
     .event-list > li > .info {
-        background-color: rgb(245, 245, 245);
-        overflow: hidden;
+        padding: 5px 10px 0px;
     }
-    .event-list > li > time,
-    .event-list > li > img {
-        height: 120px;
-        padding: 0px;
-        margin: 0px;
-    }
-    .event-list > li > .info {
-        position: relative;
-        height: 120px;
-        text-align: left;
-        padding-right: 40px;
-    }   
-    .event-list > li > .info > .title, 
-    .event-list > li > .info > .desc {
-        padding: 0px 10px;
-    }
-    .event-list > li > .info > ul {
-        position: absolute;
-        left: 0px;
-        bottom: 0px;
-    }
-    .event-list > li > .social {
-        position: absolute;
-        top: 0px;
-        right: 0px;
-        display: block;
-        width: 40px;
-    }
-    .event-list > li > .social > ul {
-        border-left: 1px solid rgb(230, 230, 230);
-    }
-    .event-list > li > .social > ul > li {          
-        display: block;
-        padding: 0px;
-    }
-    .event-list > li > .social > ul > li > a {
-        display: block;
-        width: 40px;
-        padding: 10px 0px 9px;
-    }*/
 }
 /* Hide all but 5 events
 @media (max-width: 768px) {
