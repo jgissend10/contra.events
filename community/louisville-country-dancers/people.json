@@ -1,0 +1,50 @@
+{
+  "boardmembers":
+  [
+    {
+      "name":"Scott Stevens",
+      "address":"5842 Hillcrest Rd",
+      "phonenumber":"(870) 288-4149",
+      "email":"scott.stevens@example.com",
+      "img":"http://api.randomuser.me/portraits/men/49.jpg"
+    },
+    {
+      "name":"Scott Stevens",
+      "address":"5842 Hillcrest Rd",
+      "phonenumber":"(870) 288-4149",
+      "email":"scott.stevens@example.com",
+      "img":"http://api.randomuser.me/portraits/men/97.jpg"
+    },
+    {
+      "name":"Scott Stevens",
+      "address":"5842 Hillcrest Rd",
+      "phonenumber":"(870) 288-4149",
+      "email":"scott.stevens@example.com",
+      "img":"http://api.randomuser.me/portraits/men/54.jpg"
+    },
+    {
+      "name":"Scott Stevens",
+      "address":"5842 Hillcrest Rd",
+      "phonenumber":"(870) 288-4149",
+      "email":"scott.stevens@example.com",
+      "img":"http://api.randomuser.me/portraits/men/77.jpg"
+    },
+    {
+      "name":"Scott Stevens",
+      "address":"5842 Hillcrest Rd",
+      "phonenumber":"(870) 288-4149",
+      "email":"scott.stevens@example.com",
+      "img":"http://api.randomuser.me/portraits/men/19.jpg"
+    },
+    {
+      "name":"Scott Stevens",
+      "address":"5842 Hillcrest Rd",
+      "phonenumber":"(870) 288-4149",
+      "email":"scott.stevens@example.com",
+      "img":"http://api.randomuser.me/portraits/men/12.jpg"
+    },
+  ],
+  "generalmembers":
+  [
+  ]
+}
